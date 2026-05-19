@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">LOGO</div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-cta">Hire Me</a>
+
+        <button class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-tag">
+            <span class="dot"></span>
+            Available for work
+        </div>
+
+        <h1 class="hero-title">
+            Web Designer <br>
+            & <span class="highlight">Frontend</span><br>
+            Developer
+        </h1>
+
+        <p class="hero-sub">
+            I create beautiful, functional websites that help businesses stand out in the digital landscape.
+        </p>
+
+        <div class="hero-btns">
+            <a href="#projects" class="btn-main">View My Work</a>
+            <a href="#contact" class="btn-ghost">Contact Me</a>
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+
+        <p class="section-label">Skills</p>
+
+        <div class="skills-grid">
+
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #e44d26;"></span>
+                HTML5
+            </div>
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #264de4;"></span>
+                CSS3
+            </div>
+
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #f7df1e;"></span>
+                JavaScript
+            </div>
+
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #21759b;"></span>
+                WordPress
+            </div>
+
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #a259ff;"></span>
+                Figma
+            </div>
+
+            <div class="skill-chip">
+                <span class="skill-dot" style="background: #f05032;"></span>
+                Git & GitHub
+            </div>
+
+        </div>
+
+    </section>
+    <section class="projects" id="projects">
+
+        <p class="section-label">Selected work</p>
+
+        <div class="projects-grid">
+
+            <div class="proj-card fade-in">
+                <div class="proj-bar"></div>
+                <div class="proj-top">
+                    <h3 class="proj-name">Restaurant Website</h3>
+                    <span class="proj-arrow">↗</span>
+                </div>
+                <p class="proj-desc">
+                    Full WordPress site with custom theme,
+                    mobile-first design and online menu.
+                </p>
+                <div class="proj-tags">
+                    <span class="tag">WordPress</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag live">● Live</span>
+                </div>
+            </div>
+
+            <div class="proj-card fade-in">
+                <div class="proj-bar" style="background: #5affd6;"></div>
+                <div class="proj-top">
+                    <h3 class="proj-name">Landing Page</h3>
+                    <span class="proj-arrow">↗</span>
+                </div>
+                <p class="proj-desc">
+                    Product landing page built from scratch
+                    with HTML and CSS only — no WordPress.
+                </p>
+                <div class="proj-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS Grid</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="proj-card fade-in">
+                <div class="proj-bar" style="background: #a259ff;"></div>
+                <div class="proj-top">
+                    <h3 class="proj-name">Weather App</h3>
+                    <span class="proj-arrow">↗</span>
+                </div>
+                <p class="proj-desc">
+                    Fetches live weather data via API and
+                    displays it with a clean animated UI.
+                </p>
+                <div class="proj-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">API</span>
+                    <span class="tag">GitHub</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <p class="section-label">About</p>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+                <h2 class="about-title">
+                    Designer who <span class="highlight">codes</span>
+                </h2>
+                <p class="about-desc">
+                    I'm a web designer and frontend developer with 5+ years
+                    of experience building WordPress sites. Now based in Germany,
+                    looking for new opportunities in the European market.
+                </p>
+                <p class="about-desc">
+                    I care about clean design, fast performance, and writing
+                    code that makes sense — not just code that works.
+                </p>
+            </div>
+
+            <div class="about-cards">
+
+                <div class="about-card">
+                    <span class="about-icon">📍</span>
+                    <div>
+                        <p class="about-card-title">Based in Germany</p>
+                        <p class="about-card-sub">Open to remote & local</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">🌐</span>
+                    <div>
+                        <p class="about-card-title">Languages</p>
+                        <p class="about-card-sub">Persian · English · German (learning)</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">⚡</span>
+                    <div>
+                        <p class="about-card-title">Currently learning</p>
+                        <p class="about-card-sub">React · Advanced JS · Git</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">💼</span>
+                    <div>
+                        <p class="about-card-title">Experience</p>
+                        <p class="about-card-sub">5+ years · WordPress · Freelance</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <p class="section-label">Get in touch</p>
+
+        <h2 class="contact-title">
+            Let's work <span class="highlight">together</span>
+        </h2>
+
+        <p class="contact-sub">
+            Open to freelance projects and full-time positions
+            in Germany or remote.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:rezaahmadi6364@gmail.com" class="contact-btn primary">
+                Send email
+            </a>
+
+            <a href="https://www.linkedin.com/in/rezaahmadi1996/" class="contact-btn">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/dr-alef" class="contact-btn">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Designed & built by Reza — 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
