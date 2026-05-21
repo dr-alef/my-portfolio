@@ -20,10 +20,6 @@ body {
     border-bottom: 1px solid #2a2a2c;
     transition: background 0.3s, border-color 0.3s;
 }
-.nav-logo{
-    font-size: 17px;
-    font-weight: 700;
-}
 .nav-links{
     display: flex;
     gap: 24px;
@@ -405,10 +401,6 @@ footer {
     display: flex;
   }
 
-  .nav-cta {
-    display: none;
-  }
-
   .nav-links {
     display: none;
     flex-direction: column;
@@ -453,6 +445,11 @@ footer {
   .hamburger.open span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
   }
+  /* About */
+.about-grid{
+  display: flex;
+  flex-direction: column;
+}
 
 }
 
