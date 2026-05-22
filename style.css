@@ -115,6 +115,26 @@ body {
   font-size: 14px;
   border: 1px solid #2a2a2c;
 }
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid #2a2a2c;
+}
+
+.stat-num {
+  font-size: 36px;
+  font-weight: 800;
+  color: #f0ede8;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
 /* ===== SKILLS ===== */
 .skills {
   padding: 40px 24px;
